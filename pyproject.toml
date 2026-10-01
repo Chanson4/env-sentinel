@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "env-sentinel-lite"
+version = "0.1.0"
+description = "Value-free dotenv contract checks and drift reports, with zero runtime dependencies."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "Chanson4"}]
+keywords = ["dotenv", "configuration", "ci", "developer-tools"]
+
+[project.scripts]
+env-sentinel = "env_sentinel:main"
+
+[tool.setuptools]
+py-modules = ["env_sentinel"]

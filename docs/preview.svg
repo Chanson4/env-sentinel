@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="460" viewBox="0 0 1040 460">
+<rect width="1040" height="460" rx="18" fill="#111920"/>
+<circle cx="30" cy="29" r="6" fill="#ff928b"/><circle cx="50" cy="29" r="6" fill="#f5c56e"/><circle cx="70" cy="29" r="6" fill="#95d5aa"/>
+<text x="98" y="34" font-family="sans-serif" font-size="13" fill="#94a4b4">ENV SENTINEL · VALUES STAY OUT</text>
+<text x="45" y="106" font-family="sans-serif" font-size="34" font-weight="700" fill="#edf4fc">Catch drift before deployment.</text>
+<text x="45" y="144" font-family="sans-serif" font-size="17" fill="#a4b7c8">A configuration contract check in one Python file. Zero runtime dependencies.</text>
+<g font-family="Consolas,monospace" font-size="17"><text x="45" y="211" fill="#95d5aa">$ python env_sentinel.py diff contract.env production.env</text>
+<text x="45" y="258" fill="#f5c56e">missing-key: key=LOG_LEVEL</text><text x="45" y="292" fill="#f5c56e">placeholder-value: key=API_TOKEN</text><text x="45" y="326" fill="#f5c56e">extra-key: key=DEBUG</text>
+<text x="45" y="380" fill="#94a4b4">3 issues. Configuration values are never included.</text></g>
+<text x="45" y="426" font-family="sans-serif" font-size="12" fill="#6a7c8e">CHECK · DIFF · TEMPLATE                                  PYTHON 3.10+ · MIT · CI FRIENDLY</text></svg>
